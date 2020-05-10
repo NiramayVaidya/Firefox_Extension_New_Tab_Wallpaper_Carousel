@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv='Cache-Control' content='no-cache'>
+        <meta http-equiv='Expires' content='0'>
+        <meta http-equiv='Pragma' content='no-cache'>
+
+        <title>Wallpaper Carousel New Tab</title>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/ntwc.css">
+
+        <script type="text/javascript" src="js/jquery.slim.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <script type="text/javascript" src="js/moment.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval='false' data-wrap="true" data-pause="false">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div id="carousel-item-1" class="carousel-item active" style="background-image: url('https://source.unsplash.com/random/1920x1080')">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div>
+                                <button id="onclick-1" type="button" class="btn btn-outline-secondary btn-sm">On click</button>
+                                <div class="btn-group">
+                                    <button id="as-1" type="button" class="btn btn-outline-secondary btn-sm dropdown-toggle" data-toggle="dropdown">Auto scroll</button>
+                                    <div id="ddm-11" class="dropdown-menu" style="background-color: #6c757d;">
+                                        <input id="autoscroll-1" type="text" class="form-control form-control-sm" placeholder="Scroll interval (>= 2 s)" style="color: #6c757d;">
+                                    </div>
+                                </div>
+                                <div class="btn-group">
+                                    <button id="ug-1" type="button" class="btn btn-outline-secondary btn-sm dropdown-toggle" data-toggle="dropdown">Unsplash Gallery</button>
+                                    <div id="ddm-12" class="dropdown-menu" style="background-color: #6c757d;">
+                                        <button id="gallery-11" class="form-control form-control-sm btn btn-light btn-sm"><p style="color: #6c757d">Random</p></button>
+                                        <button id="gallery-12" class="form-control form-control-sm btn btn-light btn-sm"><p style="color: #6c757d">Featured</p></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p id="error-1" style="display: none; color: red; font-weight: bold
+                            ;">Scroll interval can't be less than 2 s or unspecified</p>
+                            <p id="dt-1" class="lead dt-bc-1" style="color: #6c757d; margin-top: 55%;"><span id="datetime-1"></span></p>
+                        </div>
+                    </div>
+                    <div id="carousel-item-2" class="carousel-item img-2" style="background-image: url('https://source.unsplash.com/random/1920x1080')">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div>
+                                <button id="onclick-2" type="button" class="btn btn-outline-secondary btn-sm">On click</button>
+                                <div class="btn-group">
+                                    <button id="as-2" type="button" class="btn btn-outline-secondary btn-sm dropdown-toggle" data-toggle="dropdown">Auto scroll</button>
+                                    <div id="ddm-21" class="dropdown-menu" style="background-color: #6c757d;">
+                                        <input id="autoscroll-2" type="text" class="form-control form-control-sm" placeholder="Scroll interval (>= 2 s)" style="color: #6c757d;">
+                                    </div>
+                                </div>
+                                <div class="btn-group">
+                                    <button id="ug-2" type="button" class="btn btn-outline-secondary btn-sm dropdown-toggle" data-toggle="dropdown">Unsplash Gallery</button>
+                                    <div id="ddm-22" class="dropdown-menu" style="background-color: #6c757d;">
+                                        <button id="gallery-21" class="form-control form-control-sm btn btn-light btn-sm"><p style="color: #6c757d">Random</p></button>
+                                        <button id="gallery-22" class="form-control form-control-sm btn btn-light btn-sm"><p style="color: #6c757d">Featured</p></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p id="error-2" style="display: none; color: red; font-weight: bold">Scroll interval can't be less than 2 s or unspecified</p>
+                            <p id="dt-2" class="lead dt-bc-2" style="color: #6c757d; margin-top: 55%;"><span id="datetime-2"></span></p>
+                        </div>
+                    </div>
+                    <div id="carousel-item-3" class="carousel-item" style="background-image: url('https://source.unsplash.com/random/1920x1080')">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div>
+                                <button id="onclick-3" type="button" class="btn btn-outline-secondary btn-sm">On click</button>
+                                <div class="btn-group">
+                                    <button id="as-3" type="button" class="btn btn-outline-secondary btn-sm dropdown-toggle" data-toggle="dropdown">Auto scroll</button>
+                                    <div id="ddm-31" class="dropdown-menu" style="background-color: #6c757d;">
+                                        <input id="autoscroll-3" type="text" class="form-control form-control-sm" placeholder="Scroll interval (>= 2 s)" style="color: #6c757d;">
+                                    </div>
+                                </div>
+                                <div class="btn-group">
+                                    <button id="ug-3" type="button" class="btn btn-outline-secondary btn-sm dropdown-toggle" data-toggle="dropdown">Unsplash Gallery</button>
+                                    <div id="ddm-32" class="dropdown-menu" style="background-color: #6c757d;">
+                                        <button id="gallery-31" class="form-control form-control-sm btn btn-light btn-sm"><p style="color: #6c757d">Random</p></button>
+                                        <button id="gallery-32" class="form-control form-control-sm btn btn-light btn-sm"><p style="color: #6c757d">Featured</p></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <p id="error-3" style="display: none; color: red; font-weight: bold">Scroll interval can't be less than 2 s or unspecified</p>
+                            <p id="dt-3" class="lead" style="color: #6c757d; margin-top: 55%;"><span id="datetime-3"></span></p>
+                        </div>
+                    </div>
+                </div>
+                <a id="prev" class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" title="Click 2 s after current wallpaper load">
+                    <span id="pi" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a id="next" class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" title="Click 2 s after current wallpaper load">
+                    <span id="ni" class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </header>
+
+        <script type="text/javascript" src="js/ntwc.js"></script>
+    </body>
+</html>
