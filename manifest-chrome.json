@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "New Tab Wallpaper Carousel",
+    "short_name": "Custom New Tab",
+    "version": "1.0.0",
+    "author": "Niramay Vaidya",
+    "description": "Scroll through a wallpaper carousel on a new tab",
+    "background": {
+      "scripts": ["icon-click-action-chrome.js"],
+      "persistent": false
+    },
+    "permissions": ["notifications", "activeTab"],
+    "browser_action": {
+      "browser_style": true,
+      "default_icon": {
+        "48": "icons/ntwc-48.png",
+        "96": "icons/ntwc-96.png"
+      },
+      "default_title": "New Tab Wallpaper Carousel"
+    },
+    "icons": {
+      "48": "icons/ntwc-48.png",
+      "96": "icons/ntwc-96.png"
+    },
+    "chrome_url_overrides": {
+      "newtab": "ntwc.html"
+    }
+  }
