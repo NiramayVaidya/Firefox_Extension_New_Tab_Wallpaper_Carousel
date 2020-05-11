@@ -487,7 +487,7 @@ $(document).ready(function() {
       carousel.data()["bs.carousel"]["_config"] = opts;
       carousel.carousel(opts);
 
-      // for chrome it should be initial instead of contents
+      // for older versions of chrome, initial should be used instead of contents
       document.querySelector("#error-" + slideNum).style.display = "contents";
       document.querySelector("#dt-" + slideNum).style.marginTop = "52.5%";
       errorTimerId = setTimeout(removeAutoScrollErrorDisplay.bind(null, slideNum), 3000);
