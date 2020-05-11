@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "New Tab Wallpaper Carousel",
     "short_name": "Custom New Tab",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "developer": {
       "name": "Niramay Vaidya",
       "url": "https://github.com/NiramayVaidya/Firefox_Extension_New_Tab_Wallpaper_Carousel"
