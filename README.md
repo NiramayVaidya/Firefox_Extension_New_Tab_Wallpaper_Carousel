@@ -23,17 +23,36 @@ On opening a new tab, 15 HD wallpapers using the random or the featured *Unsplas
 1. Clicking on the add-on icon in the Firefox/Chrome toolbar launches a new tab with the wallpaper carousel enabled.
 
 ## Images
+*Unplash gallery dark style*
 ![Unplash gallery dark style](https://addons.cdn.mozilla.net/user-media/previews/full/237/237603.png?modified=1589092726)
+
+*Auto scroll light style*
 ![Auto scroll light style](https://addons.cdn.mozilla.net/user-media/previews/full/237/237604.png?modified=1589092724)
+
+*On click dark style*
 ![On click dark style](https://addons.cdn.mozilla.net/user-media/previews/full/237/237605.png?modified=1589092728)
+
+*Different styles for overlapping elements*
 ![Different styles for overlapping elements](https://addons.cdn.mozilla.net/user-media/previews/full/237/237606.png?modified=1589092727)
 ![Different styles for overlapping elements](https://addons.cdn.mozilla.net/user-media/previews/full/237/237607.png?modified=1589092723)
 ![Different styles for overlapping elements](https://addons.cdn.mozilla.net/user-media/previews/full/237/237608.png?modified=1589092724)
+
+*Unplash gallery light style*
 ![Unplash gallery light style](https://addons.cdn.mozilla.net/user-media/previews/full/237/237609.png?modified=1589092725)
+
+*Dark style for overlapping elements*
 ![Dark style for overlapping elements](https://addons.cdn.mozilla.net/user-media/previews/full/237/237610.png?modified=1589092729)
+
+*On click light style*
 ![On click light style](https://addons.cdn.mozilla.net/user-media/previews/full/237/237611.png?modified=1589092725)
+
+*Auto scroll dark style*
 ![Auto scroll dark style](https://addons.cdn.mozilla.net/user-media/previews/full/237/237612.png?modified=1589092727)
+
+*Unplash gallery dark style - featured*
 ![Unplash gallery dark style - featured](https://addons.cdn.mozilla.net/user-media/previews/full/237/237613.png?modified=1589092725)
+
+*Unplash gallery dark style - random*
 ![Unplash gallery dark style - random](https://addons.cdn.mozilla.net/user-media/previews/full/237/237614.png?modified=1589092727)
 
 ## Using the extension for Chrome
